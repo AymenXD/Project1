@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cloning Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/cloning.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+        <nav class="navbar navbar-default navbar-fixed-top" id="nav">
+                <div class="container-fluid" style="background-color:#0B1418" > 
+                  <div class="navbar-header" >
+                        <img id="tre" style="max-width: 200px;margin-top: 10px;margin-left:10px;"  src="res\36955992_1990702071243523_1227021286874546176_n.png" alt="logo">
+                  </div>
+                  <ul class="nav navbar-nav" "ktiba">
+                  
+                    <li><a href="#aze" class="a">A Propos De Nous</a></li>
+                    <li><a href="#t-design" class="a">Services</a></li>
+                    <li><a href="#aa" class="a">Portfolio</a></li>
+                    <li><a href="#contact" class="a">Contact</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <br  id="aze">
+              <br>
+      <br >
+      <br>
+      <br>      
+
+<center><h3 style="color:white">A propos de nous</h3> </center>
+  <br>
+  <br>
+  <video  autoplay width=100%  height="450" >
+    <source src="res\2016 Oscars Commercial_ The Event.mp4" type="video/mp4">
+    </video>       
+    <br>
+    <br>  
+
+
+    <div id="part1">
+  <img id="first" src="data:image/jpeg;base64,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" class="tsawr">
+  <center><p id="t-SB">Leonardo DiCaprioi</p></center>
+  <div >
+      <br>
+    <div class="bra" id="myDIV1" >Leonardo Wilhelm DiCaprioi s an American actor and film producer. DiCaprio began his career by appearing in television commercials in the late 1980s. He next had recurring roles in various television series, such as the soap opera Santa Barbara and the sitcom Growing Pains.</div>
+    </div>
+  </div>
+ 
+<div id="part2">
+    <img id="second"src="data:image/jpeg;base64,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" class="tsawr">
+    <center><p id="y-SB">Bryan Cranston</p></center> 
+    <div  >
+        <br>
+      <div class="bra" id="myDIV2">Bryan Lee Cranston (born March 7, 1956) is an American actor, producer, director and screenwriter, best known for his roles as Walter White on the AMC crime drama Breaking Bad, Hal on the Fox sitcom Malcolm in the Middle, and Dr. Tim Whatley on the NBC sitcom Seinfeld.</div>
+    </div>
+    </div>
+
+    <div id="part3">
+    <img id="third"src="data:image/jpeg;base64,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" class="tsawr">
+    <center><p id="g-SB">Michael Fassbender</p></center>
+    <div >
+        <br>
+     <div class="bra" id="myDIV3" > Michael Fassbender (born 2 April 1977) is a German-born Irish actor. His feature film debut was in the fantasy war epic 300 (2007) as a Spartan warrior; his earlier roles included various stage productions,as well as starring roles on television such as in the HBO miniseries.</div>
+      </div>
+    </div>
+
+    <div id="design" class="container">
+        <center><p id="t-design">What is Oscar ?</p></center>
+        <br>
+        <div class="col-sm-4"><img id="i-design" src="res\téléchargement (1).jpg">
+        </div>
+        <div class="col-sm-6"  style="background-color:#1DB06B;"><p id="p-design">The Academy Awards, also known as the Oscars,[1] are a set of 24 awards for artistic and technical merit in the American film industry, given annually by the Academy of Motion Picture Arts and Sciences (AMPAS), to recognize excellence in cinematic achievements as assessed by the Academy's voting membership. The various category winners are awarded a copy of a golden statuette, officially called the "Academy Award of Merit", which has become commonly known by its nickname "Oscar". The sculpture was created by George Stanley.[2] The awards, first presented in 1929 at the Hollywood Roosevelt Hotel, are overseen by AMPAS.[3][4]</p>
+        </div></div> 
+        <br><br>
+
+
+
+        <div id="development" class="container">
+        <center><p id="t-development">How it's made ?</p></center>
+        <div class="col-sm-4"><img id="i-development" src="res\images (3).jpg">
+        </div> 
+        <div class="col-sm-6"  style="background-color:#1DB06B;"><p id="p-development">he first Best Actor awarded was Emil Jannings, for his performances in The Last Command and The Way of All Flesh. He had to return to Europe before the ceremony, so the Academy agreed to give him the prize earlier; this made him the first Academy Award winner in history. At that time, the winners were recognized for all of their work done in a certain category during the qualifying period; for example, </p></div></div>
+        <br><br>
+
+
+        <div id="marketing" class="container">
+        <center><p id="t-marketing">What it's worth ?</p></center>
+        <div class="col-sm-4"><img id="i-marketing" src="res\images (2).jpg">
+        </div> 
+        <div class="col-sm-6"  style="background-color:#1DB06B;"><p id="p-marketing">The best known award is the Academy Award of Merit, more popularly known as the Oscar statuette.[10] Made of gold-plated bronze on a black metal base, it is 13.5 in (34.3 cm) tall, weighs 8.5 lb (3.856 kg), and depicts a knight rendered in Art Deco style holding a crusader's sword standing on a reel of film with five spokes. The five spokes represent the original branches of the Academy: Actors, Writers, Directors, Producers, and Technicians.</p></div></div>
+        <br><br>   
+        <br>
+      
+        <div class="col-sm-4" id="p1" >
+        <img class="fr" id="aa"src="res\images (5).jpg">
+        <br>
+        <img class="fr" id="ab"src="res\images (4).jpg">
+        <br>
+        <img class="fr" id="ac"src="res\images (6).jpg">
+      </div>
+
+
+      <div class="p2 col-sm-4">
+        <img class="po" id="ad" src="res\images (9).jpg">
+        <br>
+        <img class="po" id="ae" src="res\téléchargement (1).jpg">
+      </div>
+    
+
+        <div class="col-sm-4">
+  <img class="pk" id="af"src="res\images (8).jpg">
+  <img class="pk" id="ag"src="res\téléchargement (2).jpg">
+  <img class="pk" id="ah"src="res\images.jpg">
+</div>
+<br>
+<br>
+
+
+<div>
+<img align="right" id="bouton" width=7% src="res\1484332638_ReverbNation.ico">
+<br>
+</div>
+
+
+<div id="rf">
+  <div class="col-md-8"> <center>
+    <img id="pf" width=90% src=""> </center>
+
+  </div>
+  <div class="col-md-4" style="color:white">
+    <h2>Prjoect</h2>
+    <p class="de">Although still dominant in ratings, the viewership of the Academy Awards have steadily dropped</p>
+  <h2>Details</h2>
+  <p class="de">Although still dominant in ratings, the viewership of the Academy Awards have steadily dropped</p>
+ <h2>Client</h2>
+  <p class="de">Although still dominant in ratings, the viewership of the Academy Awards have steadily dropped</p>
+</div>
+</div>
+<br>
+<br>
+<br>
+
+
+
+    <footer id="foo">
+     
+        <div  class="container tg" style="background-color: #2C373E">
+            <div class="row">
+                <div class="col-md-4">
+                  <br><br><br><br><br>
+                        <a href="https://fr-fr.facebook.com/gomycode/"><img src="res\logofb1.png" class="ki"></a> <br>
+                        <br>
+                        <a href="https://www.instagram.com/gomycode/?hl=fr" ><img src="res\logoinsta.png" class="ki"></a> <br>
+                        <br>
+                        <a href="https://www.youtube.com/watch?v=MkLog_27S6U" ><img src="res\logoytbe.png" class="ki"></a>
+                </div>
+                <center><div class="col-md-4 ">
+                        <center>
+                                <h3 id="contact" style="color:white">CONTACT</h3>
+                                <br>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.349881090474!2d10.239141014585552!3d36.834095773491896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd3541c4f22e55%3A0x5b7225d7fdbb3801!2sGoMyCode+Hackerspace!5e0!3m2!1sfr!2stn!4v1531319004281"
+                                 width="400" height="300" frameborder="0" style="border:0" allowfullscreen>
+                               </iframe>
+                           </center>
+                           
+                          
+                          </div>
+                              
+              </div>
+              </center> 
+        </div>
+  </footer>  
+
+
+
+</body>
+
+<script  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script  src="js/cloning.js"> </script>
+
+</html>
